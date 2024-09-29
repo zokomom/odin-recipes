@@ -1,0 +1,25 @@
+/* recipes style index page */
+body{
+    background-color: rgba(207, 79, 201, 0.640);
+   
+}
+h1{
+    text-align: center;
+    background-color: rgb(202, 15, 219);
+    font-family:serif,fantasy,Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}   
+h2{
+    font-weight:900;
+    text-decoration:underline;
+    font-size:xx-large;
+    line-height: 40px;
+}
+ul{
+    li{
+       
+        font-style: italic;
+        color: red;
+        list-style: circle;
+    }
+}
