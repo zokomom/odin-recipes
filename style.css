@@ -1,23 +1,57 @@
 /* recipes style index page */
 body{
-    background-color: rgba(207, 79, 201, 0.640);
+    background-color: rgb(0, 0, 0);
    
+}
+*{
+    color: aliceblue;
 }
 h1{
     text-align: center;
-    background-color: rgb(202, 15, 219);
+    margin: 40px 450px 0 450px;
+    border: 5px solid rgb(243, 212, 145);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: darkorange;
+    padding: 10px;
     font-family:serif,fantasy,Arial, Helvetica, sans-serif;
     font-size: 45px;
 }   
 h2{
     font-weight:900;
-    text-decoration:underline;
-    font-size:xx-large;
+    text-align: center;
+    border: 4px solid rgb(9, 104, 0);
+    background-color: yellowgreen;
+    margin-right: 700px;
+    margin-top: 100px;
+    margin-left: 390px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* text-decoration: underline; */
+    padding: 9px 30px 9px 0;
+    font-size:37px;
     line-height: 40px;
 }
 ul{
+    /* box-sizing: content-box; */
+    margin-top: 40px;
+    margin-left: 390px;
+    margin-right: 600px;
+    border: 3px solid orange;
+    border-radius: 20px;
+    padding: 15px;
+    height: 150px ;
+    width: 225px;
+    background-color: rgba(255, 255, 255, 0.190);
     li{
-       
+        display: block;
+        text-align: left;
+        line-height: 2px;
+        padding-left: 15px;
+        height: 40px;
+        background-color: lightsalmon;
+        border: 2px solid;
+        margin-bottom: 8px;
         font-style: italic;
         color: red;
         list-style: circle;
